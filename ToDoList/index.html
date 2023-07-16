@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="to-do-bg">
+
+            <div class="title">
+                <img src="./images/book.png" />
+                <img class="name" src="./images/toDoListName.png" />
+                <img src="./images/pencil.png" />
+            </div>
+            <div class="add-to-do">
+                <div class="textarea-wrapper">
+                    <textarea id="textarea" placeholder="Add your text"></textarea>
+                </div>
+                <button onclick="addItemToList()" id="add-button">Add</button>
+            </div>
+            <ul id="list">
+            </ul>
+
+        </div>
+    </div>
+</body>
+
+<script src="toDo.js"></script>
+</html>
